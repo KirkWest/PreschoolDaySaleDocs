@@ -39,6 +39,15 @@ The target audience for the app is both Early childhood centres as well as the p
 
 ## R4 User Stories
 
+Persona 1 - Deborah, Admin for ACELP:
+Deborah is the admin for ACELP, among her many tasks is overseeing the requests to buy and sell days before passing them onto the assitant director to ok as well as update the payments from one parent to another. She would like a system in place that can take care of her role as the middle man receiving these requests and sending them onto the assitant director. By having her section automated it would free up her day for addition tasks or to take more time off work to spend with her family.
+
+Persona 2 - Assistant director Sarah:
+Sarah shares everyday tasks with the director, one of these tasks is to ok the buying and selling of days and organising the rooms around children numbers and staffing. Sarahs main interest in this app is to have a safer more secure system of keeping track of the buying and selling of days as atm the it is passed on by word of mouth. By moving this online it creates a smoother workflow not having to rely on Deborah to pass on the wish for selling/buying a day.
+
+Persona 3 - Parent of Jack, April:
+As a parent sometimes it can be chaotic remembering this on pickup/drop-off, by making this app she would be able to log on and sell or buy a day at anytime instead of trying to catch Deborah or check the board at work notifying parents of possible days to buy.
+
 ## R5 Wireframes for multiple standard screen sizes, created using industry standard software
 
 ## R6 Screenshots of your Trello board throughout the duration of the project
