@@ -1,14 +1,51 @@
 # Kirk West-Sooby T3A2-Part A
 
-## Links
-
 ## R1 Description of website, including
 
 ### - Purpose
 
-The purpose of this app is to fill a need Adamstown Community Early Learning and Preschool(I'll refer to them as ACELP from here on) had with how they operate their buy/sell service for days. To go to ACELP you sign on to send your child on organised days for the duration of their [insert better word], this means that if you choose to go on a holiday or for have some absence that is pre planned the parent will be charged their daily fee regardless. ACELP has a procedure where parents can put up a day or more for sale where other parents may wish to buy and send their child for some extra days and taking over the financial responsibility. Usually this will be handled using word of mouth notifying the director/assistant director of their wish to put a day up for sale. By creating an app for ACELP that can handle this process would minimise their involvment and make this option far more accessible to parents whilst also making the process....[add in more].
+The purpose of this app is to fill a need Adamstown Community Early Learning and Preschool (I'll refer to them as ACELP from here on in the documentation) had with how they operate their buy/sell service for days. To go to ACELP you sign on to send your child on organised days until they graduate or the parents leave the service. This means that if you choose to go on a holiday or for have some absence medical or otherwise the parent will be charged their daily fee regardless. ACELP has a procedure where parents can put up a day or more for sale where other parents may wish to buy and send their child for some extra days and taking over the financial responsibility. Usually this will be handled using word of mouth notifying the admin/director/assistant director of their wish to put a day up for sale or to buy one. By creating an app for ACELP that can handle this process it would show a more professional front whilst also making it cleaner and more efficient for the admin/directors to organise and keep track of.
 
 ### - Functionality / features
+
+Here is the most up to date functionality and features section, I have left the previous two versions at the bottom with a heading of "outdated functionality / features to show how this app has gone through some changes over time as I have kept in constant communication with the client involving their ideas and wishes.
+
+### - Up to date funcitonality / features
+
+#### Landing page
+
+Admin login -
+
+* admin users can log in using their credentials which will be authenticated through JWTs.
+
+Non-admin users (parents) -
+
+* Non-admin users can bypass the login section and proceed straight to the calendar page.
+
+#### Calendar Page
+
+Non-admin -
+
+View calendar
+
+* All users can view the calendar on the this page
+
+Buy Button
+
+* Certain days will have a "buy" button displayed on them.
+* Users can click on the "buy" button which opens an email input with the subject of "Buy" and a prefill of the information they would be required to input such as "please state you name, child, email, and wish to buy this day in here please". This will email the admin at ACELP with their wish to buy this day.
+
+Selling a day
+
+* All days will have the option of being clicked on which will open an email input exactly like the buy button function except this wiull have the subject of "Sell". This will email the admin at ACELP with the parents desire to sell this day.
+
+Admin -
+View calendar
+
+* Admin once logged in will view the same display of the calendar as non admin users.
+* Admin will have additional functions on the page, which will involve the ability to add in buy days they have reviewed and accepted from parents wishing to sell, as well as the ability to remove buy days they have reviewed and accepted from parents wishing to buy.
+
+#### - Outdated functionality / features
 
 * Login as user or admin, both will require authentication to access.
 * Create new user in the database that has to be reviewed by admin, this contains information on the days you currently go, the room your child is in, and also the parents information.
@@ -41,9 +78,15 @@ The target audience for the app is both Early childhood centres as well as the p
 
 ## R2 Dataflow Diagram
 
+Please see below links for the Dataflow Diagram, local is in the docs folder and external is to lucid.app link website where the diagram was made.
+[daysale DD local link](docs/Dataflow%20Diagram.png)
+[daydale DD external link](https://lucid.app/lucidchart/2fb5c618-884e-4232-9ce3-d152ba344f5b/edit?viewport_loc=-1974%2C-424%2C2889%2C1488%2C0_0&invitationId=inv_ef818bee-6dee-40d4-b1b3-c6b90f26377e)
+
 ## R3 Application Architechure Diagram
 
-[daysale ADD](docs/daysale_ADD.png)
+Please see below links for the Application Architechure Diagram, local is in the docs folder and external is my google drive link.
+[daysale ADD local link](docs/daysale_ADD.png)
+[daydale ADD external link](https://drive.google.com/file/d/1HKSgHBO7ufA4vtlGnjLPExuKqPw_Sc1i/view?usp=sharing)
 
 ## R4 User Stories
 
@@ -96,4 +139,32 @@ Drop off and Pickup can be a chaotic experience, April finds that she often will
 
 ## R5 Wireframes for multiple standard screen sizes, created using industry standard software
 
-## R6 Screenshots of your Trello board throughout the duration of the project
+The wireframes for this app have been created on figma, please see below links to pdf version as well as figma link.
+
+[Daysale local landing page](docs/wireframe%20landing%20page%20view.png)
+[Daysale local calendar page](docs/wireframe%20desktop%20calendar%20page.png)
+[Daysale local email popup](docs/wireframe%20email%20popup%20view.png)
+[DaySale Figma link](https://www.figma.com/file/dj7vzg7QrmdbqyP7YoKwIx/DaySale-Wireframe?type=design&node-id=0%3A1&mode=design&t=tF4algAzgBIe4Dnq-1)
+
+## R6 Screenshots of your Trello board throughout the duration of the
+
+### Planning methedology
+
+The planning of this project has been tracked through Trello, I created 4 lists:
+
+* To-do,
+Here I put in the 6 cards of the rubric to keep track of each section, inside these cards I put a short description of what is to be done with a basic rundown. Each card starts in the to-do list until I proceed to start each section.
+
+* Doing
+Here I moved each card as I began work on them, I would update the cards with a short comment on what I have done and and what may need my attention to alter in the future. I also added in comments whenever a change has been requested to keep a track of what is being done or changed and why.
+
+* To review
+Here I would add in my cards as I had completed them, this isn't the final stage as this list will prompt me to give cards closer scrutiny a few days later with fresh eyes. I may have added in commments if things have moved back into doing from the review section if I found any issues or things I needed to tidy up.
+
+* Complete
+Here I have moved each card to once I had completed them and had gone through the review process. Things shouldn't be moved from complete to any previous section unless something in the design and of the app had changed since completing.
+
+Links to Trello screenshots as well as my trello board below:
+
+[Trello progress screenshots folder](docs/Trello%20screenshots/)
+[Trello board external link](https://trello.com/invite/b/FobzW5wT/ATTId65705f188e72cf20b9fc54996141c5dD69B2B13/preschooldaysale-documentation)
