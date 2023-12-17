@@ -100,11 +100,11 @@ Please see below links for the Application Architechure Diagram, local is in the
 * Role - Admin/secretary
 * Wishes - Lighter workload
 
-What:
+What:  
 Deborah is the admin for ACELP, among her many tasks is overseeing the requests to buy and sell days before passing them onto the assitant director to ok as well as update the payments from one parent to another.
 She would like a system in place that can take care of her role as the middle man receiving these requests and sending them onto the assitant director.
 
-Why:
+Why:  
 By having her section automated it would free up her day for addition tasks or to take more time off work to spend with her family.
 
 ### Persona 2 - Sarah
@@ -113,20 +113,20 @@ By having her section automated it would free up her day for addition tasks or t
 * Role - Assitant Director
 * Wishes - A more professional way to keep track of days to be sold
 
-What:
+What:  
 Sarah shares everyday tasks with the director, one of these tasks is to ok the buying and selling of days and organising the rooms around children numbers and staffing.
 
-Why:
+Why:  
 Sarahs main interest in this app is to have a safer more secure system of keeping track of the buying and selling of days as atm the it is passed on by word of mouth. By moving this online it creates a smoother workflow not having to rely on Deborah to pass on the wishes of parents to buy/sell a day.
 
 Updates to Sarahs User Story
 
 Sarah has asked for some changes to how the app will work.
 
-What:
+What:  
 First she would like the buy and sell pages to be one page, second she has requested that we remove parents log in for now and leave it as just an admin log in. Sarah would like to see how the base app runs for a while before potentially adding in user logins and other future functions like automatic removal of a day once bought.
 
-Why:
+Why:  
 Her reasoning is ACELPs staffing and organising of rooms is a delicate process, with staff going on holidays or being away sick ratios of teachers to students have to be kept at a lawful standard and the ability to not fill a day of a child being away might be necessary on occasion.
 
 ### Persona 3 - April
@@ -135,10 +135,10 @@ Her reasoning is ACELPs staffing and organising of rooms is a delicate process, 
 * Role - Parent of Jack whom goes to ACELP
 * Wishes - An easier and more convenient way to inform ACELP of wanting to buy/sell a day.
 
-What:
+What:  
 April would like a more convenient way to inform ACELP of her wishes without having to remember at drop off or pickup.
 
-Why:
+Why:  
 Drop off and Pickup can be a chaotic experience, April finds that she often will forget to inform admin of a holiday coming up so she can put a day up for sale, and she almost never remembers to read the board at ACELP that gets updated with days that are for sale to potentially buy.
 
 ## R5 Wireframes for multiple standard screen sizes, created using industry standard software
@@ -159,16 +159,16 @@ The wireframes for this app have been created on figma, please see below links t
 
 The planning of this project has been tracked through Trello, I created 4 lists:
 
-* To-do,
+* To-do,  
 Here I put in the 6 cards of the rubric to keep track of each section, inside these cards I put a short description of what is to be done with a basic rundown. Each card starts in the to-do list until I proceed to start each section.
 
-* Doing
+* Doing,  
 Here I moved each card as I began work on them, I would update the cards with a short comment on what I have done and and what may need my attention to alter in the future. I also added in comments whenever a change has been requested to keep a track of what is being done or changed and why.
 
-* To review
+* To review,  
 Here I would add in my cards as I had completed them, this isn't the final stage as this list will prompt me to give cards closer scrutiny a few days later with fresh eyes. I may have added in commments if things have moved back into doing from the review section if I found any issues or things I needed to tidy up.
 
-* Complete
+* Complete,  
 Here I have moved each card to once I had completed them and had gone through the review process. Things shouldn't be moved from complete to any previous section unless something in the design and of the app had changed since completing.
 
 Links to Trello screenshots as well as my trello board below:
