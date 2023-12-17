@@ -1,5 +1,7 @@
 # Kirk West-Sooby T3A2-Part A
 
+[Link to Github repo](https://github.com/KirkWest/PreschoolDaySaleDocs?tab=readme-ov-file)
+
 ## R1 Description of website, including
 
 ### - Purpose
