@@ -52,7 +52,7 @@ View calendar
 * Buy page with a calendar, the calendar will have a buy button on days that are for sale that will display the room that is for sale but no further information for provicy reasons. This button when clicked will remove the buy option and send an email to admin with the what user has bought this day for them to process.
 * Display page with the ability to sell your available days (this info will be different depending on the user logged in) your days will have a sell button that removes the day and sends an email to admin to process.
 
-#### UPDATE
+#### Outdated UPDATE
 
 ACELP has requested the buy and sell pages be combined onto one calendar, this will display a calendar that has a "buy" button on days that are optional to be bought.
 At this point they have requested to have full control on removing and adding the buy days once reviewed and removing the parents log in. As such the design will now have the function of clicking on a day to buy or sell, this will open up an email box where the parent can write in their information and their wish to buy/sell a day. We have talked about the possibility of adding back in parents as users at a later date if they are happy with how the app runs and feel like expanding on the capabilities.
@@ -79,13 +79,17 @@ The target audience for the app is both Early childhood centres as well as the p
 ## R2 Dataflow Diagram
 
 Please see below links for the Dataflow Diagram, local is in the docs folder and external is to lucid.app link website where the diagram was made.
+
 [daysale DD local link](docs/Dataflow%20Diagram.png)
+
 [daydale DD external link](https://lucid.app/lucidchart/2fb5c618-884e-4232-9ce3-d152ba344f5b/edit?viewport_loc=-1974%2C-424%2C2889%2C1488%2C0_0&invitationId=inv_ef818bee-6dee-40d4-b1b3-c6b90f26377e)
 
 ## R3 Application Architechure Diagram
 
 Please see below links for the Application Architechure Diagram, local is in the docs folder and external is my google drive link.
+
 [daysale ADD local link](docs/daysale_ADD.png)
+
 [daydale ADD external link](https://drive.google.com/file/d/1HKSgHBO7ufA4vtlGnjLPExuKqPw_Sc1i/view?usp=sharing)
 
 ## R4 User Stories
@@ -142,8 +146,11 @@ Drop off and Pickup can be a chaotic experience, April finds that she often will
 The wireframes for this app have been created on figma, please see below links to pdf version as well as figma link.
 
 [Daysale local landing page](docs/wireframe%20landing%20page%20view.png)
+
 [Daysale local calendar page](docs/wireframe%20desktop%20calendar%20page.png)
+
 [Daysale local email popup](docs/wireframe%20email%20popup%20view.png)
+
 [DaySale Figma link](https://www.figma.com/file/dj7vzg7QrmdbqyP7YoKwIx/DaySale-Wireframe?type=design&node-id=0%3A1&mode=design&t=tF4algAzgBIe4Dnq-1)
 
 ## R6 Screenshots of your Trello board throughout the duration of the
@@ -167,4 +174,5 @@ Here I have moved each card to once I had completed them and had gone through th
 Links to Trello screenshots as well as my trello board below:
 
 [Trello progress screenshots folder](docs/Trello%20screenshots/)
+
 [Trello board external link](https://trello.com/invite/b/FobzW5wT/ATTId65705f188e72cf20b9fc54996141c5dD69B2B13/preschooldaysale-documentation)
